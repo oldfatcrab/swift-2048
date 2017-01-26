@@ -25,6 +25,7 @@
 		5B9BB0BE0B918CE66A018E04 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DC565CB181FA3F4096DB5D /* BuddyBuildSDK.framework */; };
 		69A839F1271F672C56118426 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB561884676551DDF7EEFE0F /* QuartzCore.framework */; };
 		7E460A02F74A8B92B89CCFB3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD80B996E0DA0CC972820457 /* CoreText.framework */; };
+		84689E191E390087002268B1 /* BuddyBuildSDK in Resources */ = {isa = PBXBuildFile; fileRef = 84689E181E390087002268B1 /* BuddyBuildSDK */; };
 		8EEF75983C3BE790126E5CBD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8ACA6AE8495923346FB6D22 /* SystemConfiguration.framework */; };
 		96C5DB5CB09D7526840A23BF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA47267326878353DB02690 /* AssetsLibrary.framework */; };
 		A154C59F3ADDEFFF9720F292 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C926431DFDE76BB58D02 /* CoreMedia.framework */; };
@@ -68,6 +69,7 @@
 		1AF8F0B71941841000A7049E /* AuxiliaryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuxiliaryModels.swift; path = Models/AuxiliaryModels.swift; sourceTree = "<group>"; };
 		351F85AF964B5D11C8D06B87 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7CA47267326878353DB02690 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		84689E181E390087002268B1 /* BuddyBuildSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BuddyBuildSDK; path = ../../BuddyBuildSDK; sourceTree = "<group>"; };
 		8A36297238BF76F1C59E6BE6 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		A1DC565CB181FA3F4096DB5D /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		A8ACA6AE8495923346FB6D22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -113,6 +115,7 @@
 				1AC563DE193DCE6000402286 /* Products */,
 				AAF8009163D0291EB023A7D9 /* Frameworks */,
 				8A36297238BF76F1C59E6BE6 /* Bridging-Header.h */,
+				84689E181E390087002268B1 /* BuddyBuildSDK */,
 			);
 			sourceTree = "<group>";
 		};
@@ -291,6 +294,7 @@
 				1AEF46D01BAE736400119D81 /* Launch Screen.storyboard in Resources */,
 				1AC563E8193DCE6000402286 /* Main.storyboard in Resources */,
 				1AC563EA193DCE6000402286 /* Images.xcassets in Resources */,
+				84689E191E390087002268B1 /* BuddyBuildSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
